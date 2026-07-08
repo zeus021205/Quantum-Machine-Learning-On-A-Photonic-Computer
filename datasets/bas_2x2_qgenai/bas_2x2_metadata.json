@@ -1,0 +1,22 @@
+{
+  "source": "synthetic Bars-and-Stripes dataset",
+  "grid_shape": [
+    2,
+    2
+  ],
+  "n_qubits": 4,
+  "n_modes": 8,
+  "n_states": 16,
+  "n_bas_patterns": 6,
+  "target_distribution": "uniform over BAS support",
+  "bas_bitstrings": [
+    "0000",
+    "0011",
+    "0101",
+    "1010",
+    "1100",
+    "1111"
+  ],
+  "probability_per_bas_pattern": 0.16666666666666666,
+  "encoding_in_born_machine": "no sample-by-sample data encoding; trainable circuit parameters learn the output distribution"
+}
