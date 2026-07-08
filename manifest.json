@@ -1,0 +1,349 @@
+{
+  "created_at": "2026-07-08T22:21:44",
+  "description": "Upload package for Iris QNN and BAS QGenAI experiments.",
+  "contents": {
+    "datasets/iris_binary_qnn": "Raw and scaled Iris binary dataset used by QNN notebooks.",
+    "datasets/bas_2x2_qgenai": "BAS 2x2 target distribution used by QGenAI Born Machine notebooks.",
+    "notebooks/qnn_iris": "MZI, CNOT-chain, and Classical QNN notebooks for 1-5 layers.",
+    "notebooks/qgenai_bas": "Main QGenAI BAS notebook.",
+    "notebooks/plots": "QNN and QGenAI plot notebooks.",
+    "histories": "JSON histories needed to reproduce plots.",
+    "figures": "Generated PNG/PDF plots.",
+    "tables": "Combined CSV summaries."
+  },
+  "file_count": 83,
+  "files": [
+    {
+      "path": "datasets/bas_2x2_qgenai/bas_2x2_metadata.json",
+      "size_bytes": 515
+    },
+    {
+      "path": "datasets/bas_2x2_qgenai/bas_2x2_support_patterns.csv",
+      "size_bytes": 390
+    },
+    {
+      "path": "datasets/bas_2x2_qgenai/bas_2x2_target_distribution.csv",
+      "size_bytes": 713
+    },
+    {
+      "path": "datasets/iris_binary_qnn/iris_binary_metadata.json",
+      "size_bytes": 645
+    },
+    {
+      "path": "datasets/iris_binary_qnn/iris_binary_raw_class0_class1.csv",
+      "size_bytes": 7782
+    },
+    {
+      "path": "datasets/iris_binary_qnn/iris_binary_test_scaled_0_2pi.csv",
+      "size_bytes": 2698
+    },
+    {
+      "path": "datasets/iris_binary_qnn/iris_binary_train_scaled_0_2pi.csv",
+      "size_bytes": 6170
+    },
+    {
+      "path": "datasets/iris_binary_qnn/iris_binary_train_test_scaled_0_2pi.csv",
+      "size_bytes": 8807
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-COMBINED-distribution-error.pdf",
+      "size_bytes": 273880
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-COMBINED-distribution-error.png",
+      "size_bytes": 712050
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-COMBINED-final-metrics.pdf",
+      "size_bytes": 30476
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-COMBINED-final-metrics.png",
+      "size_bytes": 1268537
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-COMBINED-loss-convergence.pdf",
+      "size_bytes": 30542
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-COMBINED-loss-convergence.png",
+      "size_bytes": 943846
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-COMBINED-target-vs-generated.pdf",
+      "size_bytes": 35436
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-COMBINED-target-vs-generated.png",
+      "size_bytes": 1611113
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-COMBINED-top-generated-patterns.pdf",
+      "size_bytes": 47452
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-COMBINED-top-generated-patterns.png",
+      "size_bytes": 809496
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-COMBINED-training-curves.png",
+      "size_bytes": 1020230
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-target-patterns.pdf",
+      "size_bytes": 14658
+    },
+    {
+      "path": "figures/qgenai_bas/QGENAI-BAS-target-patterns.png",
+      "size_bytes": 99320
+    },
+    {
+      "path": "figures/qnn_iris/ALLMODELS-combined-confusion-matrices.pdf",
+      "size_bytes": 68808
+    },
+    {
+      "path": "figures/qnn_iris/ALLMODELS-combined-confusion-matrices.png",
+      "size_bytes": 638170
+    },
+    {
+      "path": "figures/qnn_iris/ALLMODELS-combined-probabilities-predictions-labels.pdf",
+      "size_bytes": 37712
+    },
+    {
+      "path": "figures/qnn_iris/ALLMODELS-combined-probabilities-predictions-labels.png",
+      "size_bytes": 2914075
+    },
+    {
+      "path": "figures/qnn_iris/ALLMODELS-combined-test-loss-accuracy.pdf",
+      "size_bytes": 33092
+    },
+    {
+      "path": "figures/qnn_iris/ALLMODELS-combined-test-loss-accuracy.png",
+      "size_bytes": 1060083
+    },
+    {
+      "path": "figures/qnn_iris/ALLMODELS-final-metric-overview.pdf",
+      "size_bytes": 29352
+    },
+    {
+      "path": "figures/qnn_iris/ALLMODELS-final-metric-overview.png",
+      "size_bytes": 1096258
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-CLASSICAL-1layers-history.json",
+      "size_bytes": 35715
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-CLASSICAL-2layers-history.json",
+      "size_bytes": 35674
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-CLASSICAL-3layers-history.json",
+      "size_bytes": 35745
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-CLASSICAL-4layers-history.json",
+      "size_bytes": 35663
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-CLASSICAL-5layers-history.json",
+      "size_bytes": 35704
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-CNOT-1layers-history.json",
+      "size_bytes": 49831
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-CNOT-2layers-history.json",
+      "size_bytes": 50552
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-CNOT-3layers-history.json",
+      "size_bytes": 51626
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-CNOT-4layers-history.json",
+      "size_bytes": 52248
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-CNOT-5layers-history.json",
+      "size_bytes": 52854
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-MZI-1layers-history.json",
+      "size_bytes": 48982
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-MZI-2layers-history.json",
+      "size_bytes": 49644
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-MZI-3layers-history.json",
+      "size_bytes": 50035
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-MZI-4layers-history.json",
+      "size_bytes": 50630
+    },
+    {
+      "path": "histories/qgenai_bas/QGENAI-BAS-MERLIN-MZI-5layers-history.json",
+      "size_bytes": 51103
+    },
+    {
+      "path": "histories/qnn_iris/CLASSICAL-1layers-local-history.json",
+      "size_bytes": 14813
+    },
+    {
+      "path": "histories/qnn_iris/CLASSICAL-2layers-local-history.json",
+      "size_bytes": 14690
+    },
+    {
+      "path": "histories/qnn_iris/CLASSICAL-3layers-local-history.json",
+      "size_bytes": 14379
+    },
+    {
+      "path": "histories/qnn_iris/CLASSICAL-4layers-local-history.json",
+      "size_bytes": 14408
+    },
+    {
+      "path": "histories/qnn_iris/CLASSICAL-5layers-local-history.json",
+      "size_bytes": 14372
+    },
+    {
+      "path": "histories/qnn_iris/CNOT-chain-1layers-local-history.json",
+      "size_bytes": 15216
+    },
+    {
+      "path": "histories/qnn_iris/CNOT-chain-2layers-local-history.json",
+      "size_bytes": 14805
+    },
+    {
+      "path": "histories/qnn_iris/CNOT-chain-3layers-local-history.json",
+      "size_bytes": 13872
+    },
+    {
+      "path": "histories/qnn_iris/CNOT-chain-4layers-local-history.json",
+      "size_bytes": 13812
+    },
+    {
+      "path": "histories/qnn_iris/CNOT-chain-5layers-local-history.json",
+      "size_bytes": 13534
+    },
+    {
+      "path": "histories/qnn_iris/MZI-1layers-local-history.json",
+      "size_bytes": 13550
+    },
+    {
+      "path": "histories/qnn_iris/MZI-2layers-local-history.json",
+      "size_bytes": 13519
+    },
+    {
+      "path": "histories/qnn_iris/MZI-3layers-local-history.json",
+      "size_bytes": 13474
+    },
+    {
+      "path": "histories/qnn_iris/MZI-4layers-local-history.json",
+      "size_bytes": 13404
+    },
+    {
+      "path": "histories/qnn_iris/MZI-5layers-local-history.json",
+      "size_bytes": 13365
+    },
+    {
+      "path": "notebooks/plots/Plots-MZI-CNOT-Classical.ipynb",
+      "size_bytes": 924535
+    },
+    {
+      "path": "notebooks/plots/Plots-QGenAI-BAS-MZI-CNOT-Classical.ipynb",
+      "size_bytes": 840065
+    },
+    {
+      "path": "notebooks/qgenai_bas/QGenAI-BAS-Perceval-Merlin-Autograd-Compact-MZI-Repeated-CNOT.ipynb",
+      "size_bytes": 117406
+    },
+    {
+      "path": "notebooks/qnn_iris/CLASSICAL-1layer.ipynb",
+      "size_bytes": 121238
+    },
+    {
+      "path": "notebooks/qnn_iris/CLASSICAL-2layers.ipynb",
+      "size_bytes": 120786
+    },
+    {
+      "path": "notebooks/qnn_iris/CLASSICAL-3layers.ipynb",
+      "size_bytes": 129827
+    },
+    {
+      "path": "notebooks/qnn_iris/CLASSICAL-4layers.ipynb",
+      "size_bytes": 126067
+    },
+    {
+      "path": "notebooks/qnn_iris/CLASSICAL-5layers.ipynb",
+      "size_bytes": 125163
+    },
+    {
+      "path": "notebooks/qnn_iris/CNOT-1layer.ipynb",
+      "size_bytes": 167850
+    },
+    {
+      "path": "notebooks/qnn_iris/CNOT-2layers.ipynb",
+      "size_bytes": 144087
+    },
+    {
+      "path": "notebooks/qnn_iris/CNOT-3layers.ipynb",
+      "size_bytes": 147874
+    },
+    {
+      "path": "notebooks/qnn_iris/CNOT-4layers.ipynb",
+      "size_bytes": 144805
+    },
+    {
+      "path": "notebooks/qnn_iris/CNOT-5layers.ipynb",
+      "size_bytes": 139824
+    },
+    {
+      "path": "notebooks/qnn_iris/MZI-1layer.ipynb",
+      "size_bytes": 586892
+    },
+    {
+      "path": "notebooks/qnn_iris/MZI-2layers.ipynb",
+      "size_bytes": 127864
+    },
+    {
+      "path": "notebooks/qnn_iris/MZI-3layers.ipynb",
+      "size_bytes": 131183
+    },
+    {
+      "path": "notebooks/qnn_iris/MZI-4layers.ipynb",
+      "size_bytes": 128357
+    },
+    {
+      "path": "notebooks/qnn_iris/MZI-5layers.ipynb",
+      "size_bytes": 132421
+    },
+    {
+      "path": "tables/ALLMODELS-epoch-history.csv",
+      "size_bytes": 88203
+    },
+    {
+      "path": "tables/ALLMODELS-final-metrics.csv",
+      "size_bytes": 1776
+    },
+    {
+      "path": "tables/ALLMODELS-probabilities-predictions-labels.csv",
+      "size_bytes": 12728
+    },
+    {
+      "path": "tables/QGENAI-BAS-MERLIN-COMBINED-curves.csv",
+      "size_bytes": 248389
+    },
+    {
+      "path": "tables/QGENAI-BAS-MERLIN-COMBINED-distributions.csv",
+      "size_bytes": 15607
+    },
+    {
+      "path": "tables/QGENAI-BAS-MERLIN-COMBINED-summary.csv",
+      "size_bytes": 3764
+    }
+  ]
+}
